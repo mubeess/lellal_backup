@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    // "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "jsx": "preserve",
+    "strict": false /* Enable all strict type-checking options. */,
+    "noImplicitAny": false /* Enable error reporting for expressions and declarations with an implied `any` type.. */,
+    "strictNullChecks": true 
+  },
+}
